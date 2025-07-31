@@ -27,9 +27,5 @@ weighted avg       0.76      0.87      0.81      1200
 
 ```
 
-## Practical Recommendations
 
-- **Monitor vital sign trends**: Not just raw values, but **deltas** over previous days signal instability.
-- **Focus on medication adherence**: Poor adherence shows the strongest signal for next-day incidents.
-- **Segment by diagnosis**: Dementia and COPD patients showed elevated risk sensitivity to vitals.
 
