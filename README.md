@@ -6,17 +6,19 @@ This project predicts next-day health incident risk for Assisted Living Facility
 
 Each day, caregivers log basic health data for each resident. This model uses recent vitals and trends to identify high-risk patients so facility staff can proactively intervene.
 
-## 📁 Project Structure
+## 📁 Repository Contents
 
-```
-alf_risk_prediction/
-├── data/                # Synthetic dataset (CSV)
-├── notebooks/           # Jupyter Notebooks (EDA, Modeling, etc.)
-├── reports/             # Summary reports, documentation
-├── figures/             # Plots and visualizations
-├── src/                 # Source code (modeling, preprocessing)
-└── README.md            # Project description
-```
+| File/Folder | Description |
+|-------------|-------------|
+| `.gitignore` | Git ignore rules |
+| `00_data_generation.ipynb` | Jupyter notebook for generating synthetic health data |
+| `01_explore_and_model.ipynb` | Notebook for data exploration and model training |
+| `README.md` | Project overview and usage instructions |
+| `data/` | Placeholder directory for datasets |
+| `feature_importance.png` | Visualization of top predictive features |
+| `requirements.txt` | List of required Python packages |
+| `summary.md` | Markdown summary of key findings and recommendations |
+| `synthetic_alf_data.csv` | Generated synthetic dataset (200 patients × 30 days) |
 
 ## 📈 Key Features
 
