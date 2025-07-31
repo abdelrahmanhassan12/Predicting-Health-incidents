@@ -30,11 +30,6 @@ Each day, caregivers log basic health data for each resident. This model uses re
 ## 📊 Usage
 
 1. Clone this repo
-2. Explore `notebooks/` for EDA and modeling
-3. Review `reports/summary.md` and `figures/` for key insights
+2. Explore `01_explore_and_model.ipynb` for EDA and modeling
+3. Review `summary.md` and `feature_importance.png` for key insights
 
-## 🧠 Future Work
-
-- Real-time monitoring integration
-- Time-series or sequence modeling (e.g., LSTM)
-- Expanded features (sleep, mobility, cognition)
